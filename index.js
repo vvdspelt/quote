@@ -6,7 +6,7 @@ bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
 bot.on('message', (message) => {
-    if(message.content == 'hello'){
+    if(message.content.toLowerCase() == 'hello' || message.content.toLowerCase() == 'hi'){
         message.reply('heya (^_^)/')
     }
 });
