@@ -11,4 +11,4 @@ bot.on('message', (message) => {
     }
 });
 
-bot.login('NDUyNTYzNzYzMDYxNzE5MDYx.DfSKYw.BWTTqddcp-GyznpsvmYyk2veidM');
+bot.login('TOKEN PLACEHOLDER');
